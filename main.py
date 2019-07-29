@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 app.config['DEBUG'] = True
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://build-a-blog:seji1995@localhost:8889/build-a-blog'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://blogz:seji1995@localhost:8889/blogz'
 
 app.config['SQLALCHEMY_ECHO'] = True
 
